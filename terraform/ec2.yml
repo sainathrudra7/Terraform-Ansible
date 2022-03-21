@@ -5,5 +5,5 @@
   tasks:
   - name: Install using terraform
     terraform:
-      project_path: "/var/lib/jenkins/workspace/ec2_instance/terraform"
+      project_path: "/var/lib/jenkins/workspace/Terraform-Ansible/terraform"
       state: present
