@@ -1,7 +1,7 @@
 provider "aws" {
     region = "ami-09662e4f2b2fb67f9"
-    aws_access_key_id = "AKIAQR4BCNOGONR5RTJ3"
-    aws_secret_access_key = "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"
+    access_key = "AKIAQR4BCNOGONR5RTJ3"
+    secret_key = "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"
 }
 
 
