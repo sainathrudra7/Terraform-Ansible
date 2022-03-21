@@ -5,4 +5,5 @@
   tasks:
   - name: Install using terraform
     terraform:
+      project_path: "{{ project_dir }}"
       state: present
