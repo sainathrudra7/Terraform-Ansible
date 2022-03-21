@@ -1,0 +1,9 @@
+---
+- name: Install ec2 instance
+  hosts: localhost
+  become: yes
+  tasks:
+  - name: Install using terraform
+    terraform:
+      project_path: ./
+      state: present
