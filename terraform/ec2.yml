@@ -5,5 +5,4 @@
   tasks:
   - name: Install using terraform
     terraform:
-      project_path: ./
       state: present
